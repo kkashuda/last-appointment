@@ -10,4 +10,4 @@ const item = (state = {title: ""}, action) => {
 const rootReducer = combineReducers(item);
 let store = createStore(rootReducer);
 
-export default item; 
+export default store; 
